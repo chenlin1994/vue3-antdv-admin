@@ -1,7 +1,5 @@
 import type { ConfigEnv, UserConfig } from 'vite'
 import { resolve } from 'node:path'
-import mockServerPlugin from '@admin-pkg/vite-plugin-msw/vite'
-import TinymceResourcePlugin from '@admin-pkg/vite-plugin-tinymce-resource'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import dayjs from 'dayjs'
@@ -56,8 +54,6 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
       vueJsx({
       }),
       mkcert({ source: 'coding' }),
-      mockServerPlugin({ build: isBuild && VITE_MOCK_IN_PROD === 'true' }),
-      TinymceResourcePlugin({ baseUrl: '/tinymce-resource/' }),
       createSvgIconsPlugin({
         iconDirs: [resolve(CWD, 'src/assets/icons')],
         symbolId: 'svg-icon-[dir]-[name]',
