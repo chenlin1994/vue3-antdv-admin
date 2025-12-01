@@ -1,6 +1,3 @@
-import { http, HttpResponse, delay } from 'msw';
-import { getQuery, resultSuccess, serverApi } from '../_util';
-
 const getDictData = (dictType: string) => {
   if (dictType === 'gender') {
     return [
@@ -12,8 +9,9 @@ const getDictData = (dictType: string) => {
         label: '女',
         value: 0,
       },
-    ];
-  } else if (dictType === 'sell_status') {
+    ]
+  }
+  else if (dictType === 'sell_status') {
     return [
       {
         label: '已售罄',
@@ -23,15 +21,21 @@ const getDictData = (dictType: string) => {
         label: '热卖中',
         value: 1,
       },
-    ];
+    ]
   }
-  return [];
-};
+  return []
+}
 
 export default [
-  http.get(serverApi('/dict/data'), async ({ request }) => {
-    await delay(1800);
-    const { type } = getQuery(request);
-    return HttpResponse.json(resultSuccess(getDictData(type)));
-  }),
-];
+  {
+    url: '/api/dict/data',
+    method: 'get',
+    response: ({ query }) => {
+      return {
+        code: 200,
+        message: 'success',
+        data: resultSuccess(getDictData(query.type)),
+      }
+    },
+  },
+]

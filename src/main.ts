@@ -6,7 +6,6 @@ import App from './App.vue'
 import { setupIcons } from './components/basic/icon'
 import { setupRouter } from './router'
 import './polyfill'
-
 const app = createApp(App)
 
 function setupPlugins() {
@@ -21,13 +20,6 @@ function setupPlugins() {
 }
 
 async function setupApp() {
-  // 通过动态import可生成单独的chunk，结合全局替换变量，可实现按需加载，且不会对代码打包体积造成影响
-  if (import.meta.env.VITE_MOCK_IN_PROD === 'true') {
-    const { setupMock } = await import('../mocks/')
-    // 启用 mock
-    await setupMock()
-  }
-
   // 挂载vuex状态管理
   setupStore(app)
   // Multilingual configuration

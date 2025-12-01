@@ -7,7 +7,7 @@ import Unocss from 'unocss/vite'
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 import Components from 'unplugin-vue-components/vite'
 import { loadEnv } from 'vite'
-import mkcert from 'vite-plugin-mkcert'
+import { viteMockServe } from 'vite-plugin-mock'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import pkg from './package.json'
@@ -49,11 +49,15 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     },
     plugins: [
       vue(),
+      viteMockServe({
+        mockPath: 'mocks', // mock文件夹位置
+        enable: true, // 打包时是否也想开启 mock
+        logger: true,
+      }),
       VueDevTools(),
       Unocss(),
       vueJsx({
       }),
-      mkcert({ source: 'coding' }),
       createSvgIconsPlugin({
         iconDirs: [resolve(CWD, 'src/assets/icons')],
         symbolId: 'svg-icon-[dir]-[name]',

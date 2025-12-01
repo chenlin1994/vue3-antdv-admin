@@ -1,23 +1,27 @@
-import { http, HttpResponse, delay } from 'msw';
-import { getQuery, resultSuccess, serverApi } from '../_util';
-
 const demoList = (keyword, count = 20) => {
-  const result = [] as any[];
+  const result = [] as any[]
 
   for (let index = 0; index < count; index++) {
     result.push({
       name: `${keyword ?? ''}选项${index}`,
       id: `${index}`,
-    });
+    })
   }
-  return result;
-};
+  return result
+}
 
 export default [
-  http.get(serverApi('/select/getDemoOptions'), async ({ request }) => {
-    await delay(1000);
-    const { keyword, count } = getQuery(request);
+  {
+    url: '/select/getDemoOptions',
+    method: 'get',
+    response: ({ query }) => {
+      const { keyword, count } = query
+      return {
+        code: 200,
+        data: demoList(keyword, count),
+        message: 'success',
+      }
+    },
+  },
 
-    return HttpResponse.json(resultSuccess(demoList(keyword, count)));
-  }),
-];
+]

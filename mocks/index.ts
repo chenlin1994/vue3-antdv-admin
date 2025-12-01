@@ -1,25 +1,14 @@
-import { enableMocking } from '@admin-pkg/vite-plugin-msw';
-import { HttpHandler } from 'msw';
+import type { MockMethod } from 'vite-plugin-mock'
 
-const modules = import.meta.glob<any>('./**/*.ts', {
-  eager: true,
-});
+// 自动导入当前文件夹下除了 index.ts 的所有 .ts 文件
+const modules = import.meta.glob<MockMethod[]>('./**/*.ts', { eager: true })
 
-export const setupMock = async () => {
-  const handlers = Object.values(modules).reduce<HttpHandler[]>((prev, curr) => {
-    const arr = curr?.default;
-    if (Array.isArray(arr)) {
-      arr.forEach((item) => {
-        if (item instanceof HttpHandler) {
-          prev.push(item);
-        }
-      });
-    }
-    return prev;
-  }, []);
-  // console.log('handlers', handlers);
-  await enableMocking(handlers, {
-    // 设置为 true 则不会在浏览器控制台输出 log 信息
-    quiet: false,
-  });
-};
+const mocks: MockMethod[] = []
+
+Object.entries(modules).forEach(([path,mod]) => {
+  if (path.endsWith('index.ts')) { return }
+  if ('default' in mod) {
+    mocks.push(...mod.default)
+  }
+})
+export default mocks
