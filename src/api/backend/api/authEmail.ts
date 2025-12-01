@@ -15,6 +15,6 @@ export async function emailSendEmailCode(body: API.SendEmailCodeDto, options?: R
       'Content-Type': 'application/json',
     },
     data: body,
-    ...(options || {}),
+      ...(options || {}),
   });
 }
