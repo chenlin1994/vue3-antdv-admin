@@ -50,9 +50,8 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     plugins: [
       vue(),
       viteMockServe({
-        mockPath: 'mocks', // mock文件夹位置
-        enable: true, // 打包时是否也想开启 mock
-        logger: true,
+        mockPath: 'mocks', // mock 文件夹
+        enable: true,
       }),
       VueDevTools(),
       Unocss(),

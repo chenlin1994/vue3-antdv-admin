@@ -25,8 +25,6 @@ const UNKNOWN_ERROR = '未知错误，请重试';
 
 /** 真实请求的路径前缀 */
 export const baseApiUrl = import.meta.env.VITE_BASE_API_URL;
-/** mock请求路径前缀 */
-// const baseMockUrl = import.meta.env.VITE_MOCK_API;
 
 const controller = new AbortController();
 const service = axios.create({
