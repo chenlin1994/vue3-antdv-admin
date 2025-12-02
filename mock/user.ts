@@ -15,7 +15,7 @@ export default [
     },
   },
   {
-    url: '/\/api\/\/user\/\d+/',
+    url: '/api/api/user/:id',
     method: 'get',
     response: () => {
       return {
