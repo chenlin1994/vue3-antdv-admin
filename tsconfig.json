@@ -45,7 +45,7 @@
   "include": [
     "**/*.d.ts",
     "mock/**/*",
-    "mocks/**/*",
+    "mock/**/*",
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
