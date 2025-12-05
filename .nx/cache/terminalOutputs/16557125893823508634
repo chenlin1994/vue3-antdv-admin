@@ -1,0 +1,38 @@
+
+> @admin-pkg/vite-plugin-msw@0.0.9 build C:\Users\admin\Desktop\project\vue3-antdv-admin\packages\vite-plugin-msw
+> rimraf dist && tsup
+
+[34mCLI[39m Building entry: src/browser/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: C:\Users\admin\Desktop\project\vue3-antdv-admin\packages\vite-plugin-msw\tsup.config.ts
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: C:\Users\admin\Desktop\project\vue3-antdv-admin\packages\vite-plugin-msw\tsup.config.ts
+[34mCLI[39m Building entry: src/mockServiceWorker.js
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: C:\Users\admin\Desktop\project\vue3-antdv-admin\packages\vite-plugin-msw\tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[33mESM[39m [33mYou have emitDecoratorMetadata enabled but @swc/core was not installed, skipping swc plugin[39m
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[33mESM[39m [33mYou have emitDecoratorMetadata enabled but @swc/core was not installed, skipping swc plugin[39m
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[33mESM[39m [33mYou have emitDecoratorMetadata enabled but @swc/core was not installed, skipping swc plugin[39m
+[32mESM[39m [1mdist\browser\index.js [22m[32m1.59 KB[39m
+[32mESM[39m ⚡️ Build success in 65ms
+[32mESM[39m [1mdist\index.js     [22m[32m4.69 KB[39m
+[32mESM[39m [1mdist\index.js.map [22m[32m9.38 KB[39m
+[32mESM[39m ⚡️ Build success in 60ms
+[32mESM[39m [1mdist\mockServiceWorker.js [22m[32m30.65 KB[39m
+[32mESM[39m ⚡️ Build success in 906ms
+[34mDTS[39m Build start
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 6177ms
+[32mDTS[39m [1mdist\browser\index.d.ts [22m[32m237.00 B[39m
+[32mDTS[39m ⚡️ Build success in 7002ms
+[32mDTS[39m [1mdist\index.d.ts [22m[32m378.00 B[39m

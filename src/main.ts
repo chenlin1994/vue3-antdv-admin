@@ -6,6 +6,8 @@ import App from './App.vue'
 import { setupIcons } from './components/basic/icon'
 import { setupRouter } from './router'
 import './polyfill'
+import './styles/index.less'
+
 const app = createApp(App)
 
 function setupPlugins() {

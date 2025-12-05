@@ -135,38 +135,6 @@ const routes: Array<RouteRecordRaw> = [
             },
             component: () => import('@/views/demos/tables/edit-row-table/index.vue'),
           },
-          {
-            path: 'wzry',
-            name: `${moduleName}-table-wzry`,
-            meta: {
-              title: t('routes.demo.table.wzry'),
-              icon: 'ant-design:desktop-outlined',
-              keepAlive: false,
-            },
-            component: () => import('@/views/demos/tables/wzry-table/index.vue'),
-          },
-          {
-            path: 'lol',
-            name: `${moduleName}-table-lol`,
-            meta: {
-              title: t('routes.demo.table.lol'),
-              icon: 'ant-design:desktop-outlined',
-              keepAlive: false,
-            },
-            component: () => import('@/views/demos/tables/lol-table/index.vue'),
-          },
-          {
-            path: 'lol/:id',
-            name: `${moduleName}-table-lol-info`,
-            meta: {
-              title: '英雄详情',
-              icon: 'ant-design:desktop-outlined',
-              hideInMenu: true,
-              keepAlive: false,
-              activeMenu: `${moduleName}-table-lol`,
-            },
-            component: () => import('@/views/demos/tables/lol-table/heroInfo.vue'),
-          },
         ],
       },
       {

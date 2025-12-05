@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { LockScreen } from '@/components/basic/lockscreen'
+// import { LockScreen } from '@/components/basic/lockscreen'
 </script>
 
 <template>
@@ -7,6 +7,6 @@ import { LockScreen } from '@/components/basic/lockscreen'
     <router-view #="{ Component }">
       <component :is="Component" />
     </router-view>
-    <LockScreen />
+    <!-- <LockScreen /> -->
   </ProConfigProvider>
 </template>

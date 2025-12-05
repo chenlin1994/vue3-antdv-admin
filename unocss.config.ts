@@ -1,11 +1,11 @@
 import {
-  transformerVariantGroup,
-  transformerDirectives,
-  presetAttributify,
   defineConfig,
+  presetAttributify,
   presetMini,
   presetUno,
-} from 'unocss';
+  transformerDirectives,
+  transformerVariantGroup,
+} from 'unocss'
 
 // https://github.com/unocss/unocss#readme
 export default defineConfig({
@@ -22,4 +22,4 @@ export default defineConfig({
     'flex-bc': 'flex justify-between items-center',
   },
   theme: {},
-});
+})

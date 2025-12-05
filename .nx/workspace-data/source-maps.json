@@ -1,0 +1,542 @@
+{
+  "packages/components": {
+    "root": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:ant-design-vue": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:procomponents": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vue": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:dts": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:dts.executor": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:dts.options": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:dts.metadata": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:dts.options.script": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:dts.metadata.scriptContent": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build:dts.metadata.runCommand": [
+      "packages/components/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/vite-plugin-http2-proxy": {
+    "root": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/vite-plugin-http2-proxy/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/vite-plugin-msw": {
+    "root": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:msw": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:mock": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:vite": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/vite-plugin-msw/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/vite-plugin-tinymce-resource": {
+    "root": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/vite-plugin-tinymce-resource/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

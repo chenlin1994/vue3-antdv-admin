@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx run-many -t build --exclude @admin-pkg/components",
+    "startTime": "2025-12-05T07:50:01.960Z",
+    "endTime": "2025-12-05T07:50:28.897Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@admin-pkg/vite-plugin-tinymce-resource:build",
+      "target": "build",
+      "projectName": "@admin-pkg/vite-plugin-tinymce-resource",
+      "hash": "8594912784788056605",
+      "startTime": "2025-12-05T07:50:02.092Z",
+      "endTime": "2025-12-05T07:50:14.396Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@admin-pkg/vite-plugin-http2-proxy:build",
+      "target": "build",
+      "projectName": "@admin-pkg/vite-plugin-http2-proxy",
+      "hash": "13496235542752078053",
+      "startTime": "2025-12-05T07:50:02.092Z",
+      "endTime": "2025-12-05T07:50:14.410Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@admin-pkg/vite-plugin-msw:build",
+      "target": "build",
+      "projectName": "@admin-pkg/vite-plugin-msw",
+      "hash": "16557125893823508634",
+      "startTime": "2025-12-05T07:50:02.092Z",
+      "endTime": "2025-12-05T07:50:28.836Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

@@ -6,3 +6,8 @@ svg,
 span {
   outline: none;
 }
+td,
+th {
+  color: #4c5a67 !important;
+  font-weight: normal !important;
+}

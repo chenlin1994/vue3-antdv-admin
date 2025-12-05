@@ -5,7 +5,6 @@ import { message as $message, Modal } from 'ant-design-vue';
 import type { AxiosRequestConfig, AxiosResponse } from 'axios';
 import { ResultEnum } from '@/enums/httpEnum';
 import { useUserStore } from '@/store/modules/user';
-import { useSSEStore } from '@/store/modules/sse';
 
 export interface RequestOptions extends AxiosRequestConfig {
   /** 是否直接将数据从响应中提取出，例如直接返回 res.data，而忽略 res.code 等信息 */
@@ -55,9 +54,8 @@ service.interceptors.request.use(
 service.interceptors.response.use(
   (response: AxiosResponse<BaseResponse>) => {
     const res = response.data;
-
     // if the custom code is not 200, it is judged as an error.
-    if (res.code !== ResultEnum.SUCCESS) {
+    if (![ResultEnum.SUCCESS,ResultEnum.SUCCESS1].includes(res.code)) {
       $message.error(res.message || UNKNOWN_ERROR);
       // Illegal token
       if ([1101, 1105].includes(res.code)) {
@@ -79,8 +77,6 @@ service.interceptors.response.use(
       error.code = res.code;
       return Promise.reject(error);
     } else {
-      const sseStore = useSSEStore();
-      sseStore.setServerConnectStatus(true);
       return response;
     }
   },
@@ -134,7 +130,7 @@ export async function request(_url: string | RequestOptions, _config: RequestOpt
     const { data } = response;
     const { code, message } = data || {};
 
-    const hasSuccess = data && Reflect.has(data, 'code') && code === ResultEnum.SUCCESS;
+    const hasSuccess = data && Reflect.has(data, 'code') && [ResultEnum.SUCCESS,ResultEnum.SUCCESS1].includes(code);
 
     if (hasSuccess) {
       const { successMsg, showSuccessMsg } = config;
